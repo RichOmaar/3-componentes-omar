@@ -74,6 +74,57 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  /** Youtube **/
+  --ion-color-youtube: #c4302b;
+  --ion-color-youtube-rgb: 196,48,43;
+  --ion-color-youtube-contrast: #ffffff;
+  --ion-color-youtube-contrast-rgb: 255,255,255;
+  --ion-color-youtube-shade: #ac2a26;
+  --ion-color-youtube-tint: #ca4540;
+
+  /** Github **/ 
+  --ion-color-git: #24282e;
+  --ion-color-git-rgb: 36,40,46;
+  --ion-color-git-contrast: #ffffff;
+  --ion-color-git-contrast-rgb: 255,255,255;
+  --ion-color-git-shade: #202328;
+  --ion-color-git-tint: #3a3e43;
+
+  /** Facebook **/
+  --ion-color-facebook: #1f00d1;
+  --ion-color-facebook-rgb: 31,0,209;
+  --ion-color-facebook-contrast: #ffffff;
+  --ion-color-facebook-contrast-rgb: 255,255,255;
+  --ion-color-facebook-shade: #1b00b8;
+  --ion-color-facebook-tint: #351ad6;
+}
+
+.ion-color-youtube {
+  --ion-color-base: var(--ion-color-youtube) !important;
+  --ion-color-base-rgb: var(--ion-color-youtube-rgb) !important;
+  --ion-color-contrast: var(--ion-color-youtube-contrast) !important;
+  --ion-color-contrast-rgb: var(--ion-color-youtube-contrast-rgb) !important;
+  --ion-color-shade: var(--ion-color-youtube-shade) !important;
+  --ion-color-tint: var(--ion-color-youtube-tint) !important;
+}
+
+.ion-color-git {
+  --ion-color-base: var(--ion-color-git) !important;
+  --ion-color-base-rgb: var(--ion-color-git-rgb) !important;
+  --ion-color-contrast: var(--ion-color-git-contrast) !important;
+  --ion-color-contrast-rgb: var(--ion-color-git-contrast-rgb) !important;
+  --ion-color-shade: var(--ion-color-git-shade) !important;
+  --ion-color-tint: var(--ion-color-git-tint) !important;
+}
+
+.ion-color-facebook {
+  --ion-color-base: var(--ion-color-facebook) !important;
+  --ion-color-base-rgb: var(--ion-color-facebook-rgb) !important;
+  --ion-color-contrast: var(--ion-color-facebook-contrast) !important;
+  --ion-color-contrast-rgb: var(--ion-color-facebook-contrast-rgb) !important;
+  --ion-color-shade: var(--ion-color-facebook-shade) !important;
+  --ion-color-tint: var(--ion-color-facebook-tint) !important;
 }
 
 @media (prefers-color-scheme: dark) {
